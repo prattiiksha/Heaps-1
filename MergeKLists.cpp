@@ -10,8 +10,7 @@
  */
 class Solution {
 public:
-    ListNode* mergeKLists(vector<ListNode*>& lists) {
-        
+    ListNode* mergeKLists(vector<ListNode*>& lists) {        
         /*Approach 1: take all the lists nodes values and sort them 
         TC: O(nlogn)
         SC:O(n) */

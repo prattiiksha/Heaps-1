@@ -1,7 +1,6 @@
 class Solution {
 public:
-    int findKthLargest(vector<int>& nums, int k) {
-       
+    int findKthLargest(vector<int>& nums, int k) {       
        
         /*Approach 1: sort all the elements in nums and return (index - k)th element 
         TC: O(nlogn)
